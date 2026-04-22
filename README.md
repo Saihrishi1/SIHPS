@@ -25,37 +25,55 @@ User Input (Scan/Text/Voice) → AI Processing → Product Identification → Wa
 ### Key Components:
 
 Frontend: Mobile/Web app with local language support
+
 AI Layer: Image recognition + NLP
+
 Backend: APIs + footprint calculation engine
+
 Database: Product + water usage data
+
 Optional: Blockchain for data transparency
 
 ### Output:
 
 Water footprint (litres)
+
 Sustainability score
+
 Eco-friendly alternatives
 
 ## Use Cases
 
 Consumers scan products to check water usage
+
 Smart shopping with sustainable alternatives
+
 Educational tool for students
+
 Data insights for policymakers
+
 Farmers compare crop water consumption
 
 ## Technology Stack
 
 Frontend: React Native, React.js
+
 Backend: Node.js / Python (FastAPI)
+
 AI/ML: TensorFlow, OpenCV, NLP models
+
 Database: PostgreSQL / MongoDB
+
 Cloud: AWS / Azure / GCP
+
 Blockchain (optional): Ethereum / Hyperledger
 
 ## Dependencies
 
 Water usage datasets (FAO, Govt. sources)
+
 Image processing tools (OpenCV, OCR)
+
 Translation APIs (for local languages)
+
 Smartphone camera + internet
