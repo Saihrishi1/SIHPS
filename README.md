@@ -1,26 +1,61 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 22-04-2026
+## Register Number: 212224240140
+## Name: Sai Hrishi M
+
 ## Problem Title
-SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
+
+SIH 1287 : Use of Digital Technology to calculate water footprints for different daily use items.
+
 ## Problem Description
-Background: Railway stations are complex environments with numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, and waiting areas. Passengers often face difficulties in navigating these spaces, especially in large or unfamiliar stations. Efficient and user-friendly navigation systems are crucial for improving passenger experience, reducing congestion, and ensuring timely travel connections. Description: The problem involves developing a comprehensive navigation solution for railway stations that assists passengers in locating various facilities and destinations within the station premises. This includes creating detailed maps, providing real-time directions, and integrating features such as accessibility options for individuals with disabilities. The solution should be intuitive, easy to use, and accessible via multiple platforms, including mobile devices and digital kiosks. Key challenges include updating navigation information in real-time, ensuring accuracy, and accommodating the diverse needs of all passengers. Expected Solution: The expected solution is a multi-platform navigation system that provides detailed, real-time directions to all facilities and locations within a railway station. This system should include: A mobile application with 3D interactive maps and step-by-step navigation. Digital kiosks located throughout the station with touch-screen interfaces. Voice-guided navigation for visually impaired passengers. Regular updates to reflect changes in station layout and facility locations. Integration with existing railway apps and services for seamless user experience. The solution should enhance the overall passenger experience by reducing confusion, saving time, and improving accessibility within the station.
+
+The water footprint measures the amount of water used to produce each of the goods and services we use. The water footprint helps us understand for what purposes our limited freshwater resources are being consumed and polluted. The impact of it depends on where the water is taken from and when if it comes from a place where water is already scarce, the consequences can be significant and require action. The increase in the amount of non- available water due to pollution and scarce groundwater level has added more water footprints, at the community as well as at the personal levels. An increased water footprint directly affects the health and future of the citizens. Preventing severe drought in water-stressed areas is only going to be possible if water is used with more care and efficiency, this can be done if we have readily available data on water footprints. Hence by using digital technologies like AI, Big Data, Blockchain, etc, and computer languages, a user-friendly app or website may be developed which can provide the water footprints of different items/ final products we use in daily life by feeding little inputs or just by scanning through the camera like Google lens. The app should support local languages, this will ensure pan-India usage and sensitize the people about the water footprints of items they use in daily life.
 
 ## Problem Creater's Organization
-Ministry of Railway
+Ministry of Jal Shakti
 
-## Idea
+## Idea: “JalAware” – Water Footprint Scanner App
+A multilingual mobile/web app that helps users identify the water footprint of daily products by scanning items (camera/barcode) or entering text. It promotes awareness, sustainable choices, and efficient water usage across India.
 
+## Proposed Solution / Architecture
 
-## Proposed Solution / Architecture Diagram
+### Flow:
+User Input (Scan/Text/Voice) → AI Processing → Product Identification → Water Footprint Database → Results & Suggestions
 
+### Key Components:
+
+Frontend: Mobile/Web app with local language support
+AI Layer: Image recognition + NLP
+Backend: APIs + footprint calculation engine
+Database: Product + water usage data
+Optional: Blockchain for data transparency
+
+### Output:
+
+Water footprint (litres)
+Sustainability score
+Eco-friendly alternatives
 
 ## Use Cases
 
+Consumers scan products to check water usage
+Smart shopping with sustainable alternatives
+Educational tool for students
+Data insights for policymakers
+Farmers compare crop water consumption
 
 ## Technology Stack
 
+Frontend: React Native, React.js
+Backend: Node.js / Python (FastAPI)
+AI/ML: TensorFlow, OpenCV, NLP models
+Database: PostgreSQL / MongoDB
+Cloud: AWS / Azure / GCP
+Blockchain (optional): Ethereum / Hyperledger
 
 ## Dependencies
 
+Water usage datasets (FAO, Govt. sources)
+Image processing tools (OpenCV, OCR)
+Translation APIs (for local languages)
+Smartphone camera + internet
